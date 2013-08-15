@@ -4,14 +4,15 @@ Nash.NET Xamarin Lab
 ## Goals
 
 * Xamarin primer
-* Review development tools
-* iOS and/or Android Hello World labs
+* Development tools
+* iOS and/or Android "Hello World" labs
+* Introduction to cross platform and resuse
 
 ## Xamarin Primer
 
 Slides ...
 
-## Review Development Tools
+## Development Tools
 
 With luck, everyone has already installed Xamarin iOS and/or Xamarin Android. If not, grab them here: http://xamarin.com/download.
 
@@ -26,10 +27,10 @@ For Android development, you'll also need to create an Android emulator. Follow 
 - SDK Platform
 - Intel x86 Atom System Image
 
-**Install Intel HAXM**
+**Install Intel Hardware Accelerated Execution Manager (HAXM)**
 
 - http://software.intel.com/en-us/articles/intel-hardware-accelerated-execution-manager
-- May require BOIS tweak to enable virtualization
+- May require BOIS tweak to enable virtualization (look for errors when starting your emulator)
 
 **Create a New Emulator**
 
@@ -46,7 +47,7 @@ For Android development, you'll also need to create an Android emulator. Follow 
 - Back Camera: None
 - Emulation Options: [ ] Snapshot [x] Use Host GPU
 
-##Introduction Labs
+## Introduction Samples
 
 iOS 
 * Hello iOS - http://docs.xamarin.com/guides/ios/getting_started/hello,_world
@@ -56,4 +57,12 @@ Android
 * Hello Android - http://docs.xamarin.com/guides/android/getting_started/hello%2C_world
 * Hello, Multiscreen Applications - http://docs.xamarin.com/guides/android/getting_started/hello%2C_multi-screen_applications
 
+## Introduction to Cross Platform and Resuse
 
+* Principles
+* Yoda Says - https://github.com/benhenderson/yodasays
+ * Requires a non-starter license to build, i.e. a 30-day trial
+ * Excercises:
+  * Upgrade TPL code to use async and await
+  * Replace RestSharp with System.Net.Http
+  * Replace SimpleJson with Json.NET
