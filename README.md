@@ -10,7 +10,7 @@ Nash.NET Xamarin Lab
 
 ## Xamarin Primer
 
-*A few slides*
+A few slides.
 
 ## Development Tools Check
 
