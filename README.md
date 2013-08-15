@@ -68,6 +68,7 @@ Android
   * Replace SimpleJson with Json.NET
   * Replace filestore via JSON with SQLite backed repository (Tasky includes this)
 * Tasky Sample
- * Includes two apps to work with starter and non-starter licenses, respectively 
+ * Includes two apps to work with starter (XML backed) and non-starter (SQLite backed) licenses, respectively 
  * iOS - http://xamarin.com/getting-started/ios
  * Android - http://xamarin.com/getting-started/android
+ * Walkthrough of older version (still a useful guide) - http://docs.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/case_study%3A_tasky
