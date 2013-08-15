@@ -12,7 +12,7 @@ Nash.NET Xamarin Lab
 
 *To the slides!*
 
-## Development Tools
+## Development Tools Check
 
 With luck, everyone has already installed Xamarin iOS and/or Xamarin Android. If not, grab them here: http://xamarin.com/download.
 
