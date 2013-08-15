@@ -63,10 +63,10 @@ Android
 * YodaSays Sample - https://github.com/benhenderson/yodasays
  * Requires a non-starter license to build, i.e. a 30-day trial (http://docs.xamarin.com/guides/cross-platform/getting_started/beginning_a_xamarin_trial)
  * Possible excercises:
-   * Upgrade TPL code to use async and await
+   * Replace Task Parallel Library with async and await
    * Replace RestSharp with System.Net.Http
    * Replace SimpleJson with Json.NET
-   * Replace filestore via JSON with SQLite backed repository (Tasky includes this)
+   * Replace file-based persistance with SQLite backed repository (Tasky includes an example)
 * Tasky Sample
  * Includes two apps to work with starter (XML backed) and non-starter (SQLite backed) licenses, respectively 
  * iOS - http://xamarin.com/getting-started/ios
