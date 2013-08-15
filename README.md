@@ -61,7 +61,7 @@ Android
 
 * Primer
 * YodaSays Sample - https://github.com/benhenderson/yodasays
- * Requires a non-starter license to build, i.e. a 30-day trial
+ * Requires a non-starter license to build, i.e. a 30-day trial (http://docs.xamarin.com/guides/cross-platform/getting_started/beginning_a_xamarin_trial)
  * Possible excercises:
    * Upgrade TPL code to use async and await
    * Replace RestSharp with System.Net.Http
