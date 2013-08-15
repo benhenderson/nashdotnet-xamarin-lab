@@ -1,16 +1,16 @@
 Nash.NET Xamarin Lab
 ====================
 
-## Goals
+## Game Plan
 
 * Xamarin primer
-* Development tools
-* iOS and/or Android "Hello World" labs
-* Introduction to cross platform and resuse
+* Development tools check
+* Intro iOS and Android samples
+* Intro to cross platform and code resuse
 
 ## Xamarin Primer
 
-Slides ...
+*To the slides!*
 
 ## Development Tools
 
@@ -47,7 +47,7 @@ For Android development, you'll also need to create an Android emulator. Follow 
 - Back Camera: None
 - Emulation Options: [ ] Snapshot [x] Use Host GPU
 
-## Introduction Samples
+## Intro Samples
 
 iOS 
 * Hello iOS - http://docs.xamarin.com/guides/ios/getting_started/hello,_world
@@ -57,12 +57,17 @@ Android
 * Hello Android - http://docs.xamarin.com/guides/android/getting_started/hello%2C_world
 * Hello, Multiscreen Applications - http://docs.xamarin.com/guides/android/getting_started/hello%2C_multi-screen_applications
 
-## Introduction to Cross Platform and Resuse
+## Intro to Cross Platform and Code Resuse
 
-* Principles
-* Yoda Says - https://github.com/benhenderson/yodasays
+* Theory
+* YodaSays Sample - https://github.com/benhenderson/yodasays
  * Requires a non-starter license to build, i.e. a 30-day trial
- * Excercises:
+ * Possible excercises:
   * Upgrade TPL code to use async and await
   * Replace RestSharp with System.Net.Http
   * Replace SimpleJson with Json.NET
+  * Replace filestore via JSON with SQLite backed repository (Tasky includes this)
+* Tasky Sample
+ * Includes two apps to work with starter and non-starter licenses, respectively 
+ * iOS - http://xamarin.com/getting-started/ios
+ * Android - http://xamarin.com/getting-started/android
